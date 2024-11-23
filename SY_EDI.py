@@ -171,7 +171,7 @@ def generateTodoList():
 
 # Function to retrieve news using a free API and speak headlines
 def getNews():
-    news_api_key = '47b3cc05e7124a7eadb30b6d6a949fee'  
+    news_api_key = 'use your own API'  
     url = f'https://newsapi.org/v2/top-headlines?country=us&apiKey={news_api_key}'
     response = requests.get(url)
     news_data = json.loads(response.text)
